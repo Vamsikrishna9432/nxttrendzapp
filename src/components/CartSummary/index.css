@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.summary-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.su-ti {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.amount {
+  color: #616e7c;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.no-items {
+  color: #616e7c;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.checkout-btn {
+  border-width: 0px;
+  outline: none;
+  background-color: #0b69ff;
+  padding: 10px;
+  width: 110px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border-radius: 5px;
+}
